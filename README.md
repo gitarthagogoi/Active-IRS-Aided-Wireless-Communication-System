@@ -30,26 +30,13 @@ The system considers:
 - An **N-element Active IRS** placed between the BS and users to overcome multiplicative fading.  
 - Each active IRS element integrates **reflection-type amplifiers** providing signal gain and phase control.
 
-#### Key signal models:
-- **Ideal Active IRS:**
-  \[
-  \Phi = \text{diag}(q_1 e^{j\theta_1}, \dots, q_N e^{j\theta_N})
-  \]
-- **Practical Active IRS:**
-  \[
-  \theta_n \in \{0, \Delta\theta, 2\Delta\theta, \dots, (L-1)\Delta\theta\}
-  \]
-  where \(L\) represents quantization levels and \(q_n > 0\) is the amplification factor.
 
 ---
 
 ### 🧩 Optimization Framework  
 
 #### 🎯 **Objective Function**
-Maximize the total system **sum-rate**:
-\[
-\max_{v, \Phi} \; R_{\text{sum}} = \sum_{k=1}^{K} \log_2(1 + \eta_k)
-\]
+Maximize the total system **sum-rate**
 subject to:
 - BS transmit power constraint  
 - Active IRS power constraint  
