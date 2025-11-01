@@ -1,12 +1,13 @@
-function W=cvx_solve_W_for_noRIS(M,K,G,Theta,V,A,W,Ps_max)
+function W=cvx_solve_W_for_passiveRIS(M,K,G,Theta,V,A,W,Ps_max)
 
 A=0.5*(A+A');
+%A=A+10^(-50);
 
-A=A+10^(-50);
+A = A*10^5;
+V = V*10^5;
 
 % cvx_begin quiet
 %     cvx_precision low
-%     
 %     variable W(M*K,1) complex;
 %     minimize((W')*A*W-2*real((V')*W))
 %     subject to
