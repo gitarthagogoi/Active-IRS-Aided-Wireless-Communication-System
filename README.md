@@ -102,6 +102,5 @@ The simulation compares:
   - **+1.38 bps/Hz** gain under strong LoS  
 - Hardware imperfections limit ideal performance, but practical gains remain significant.
 
----
 
 ### 🗂️ Repository Structure
