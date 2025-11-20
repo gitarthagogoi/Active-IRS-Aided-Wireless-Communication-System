@@ -11,7 +11,7 @@ This repository provides the **MATLAB implementation** of the work presented in 
 > *International Journal of Information Technology (Springer, 2025)*  
 > DOI: [10.1007/s41870-025-02663-1](https://doi.org/10.1007/s41870-025-02663-1)
 
-Please use the following citation if this project contributes to your research:
+**Please use the following citation if this project contributes to your research:**
 @article{gogoi2025activeIRS,
   author    = {Gogoi, Gitartha and Bose, T. and Vishwakarma, P. and others},
   title     = {Performance analysis of active IRS assisted MU-MISO system},
