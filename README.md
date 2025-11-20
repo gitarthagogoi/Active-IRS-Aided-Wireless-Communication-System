@@ -102,5 +102,13 @@ The simulation compares:
   - **+1.38 bps/Hz** gain under strong LoS  
 - Hardware imperfections limit ideal performance, but practical gains remain significant.
 
+@article{gogoi2025activeIRS,
+  author    = {Gogoi, Gitartha and Bose, T. and Vishwakarma, P. and others},
+  title     = {Performance analysis of active IRS assisted MU-MISO system},
+  journal   = {International Journal of Information Technology},
+  year      = {2025},
+  doi       = {10.1007/s41870-025-02663-1}
+}
+
 
 ### 🗂️ Repository Structure
